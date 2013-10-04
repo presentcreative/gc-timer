@@ -23,12 +23,15 @@ Copy Timer.js into your src directory and call an instance of the timer. It's us
 ##Methods
 
 ###Schedule a single event
-//Returns a reference to the event for future cancelation
+		
+		//Returns a reference to the event for future cancelation
 		myEvt = Timer.scheduleSingleEvent(callback,timeDelay);
 
 ###Schedule a repeating event
-//Returns a reference to the event for future cancelation.  If limit parameter is not provided, loop will be infinite.
+		
+		//Returns a reference to the event for future cancelation.  If limit parameter is not provided, loop will be infinite.
 		myEvt = Timer.scheduleRepeatingEvent(callback,timeDelay [, limit]);
 
 ###Cancel an event
+		
 		myEvt = Timer.cancelEvent(myEvt); //myEvt = the refernce returned when the event was scheduled
