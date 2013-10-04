@@ -1,6 +1,6 @@
 gc-timer
 ========
-#Event Schedule Manager for Game Closure
+##Event Schedule Manager for Game Closure
 
 The purpose of this class is to unify any timed events with Game Closure's game clock. This also allows for easy scoping of the this parameter within the callback function using the bind function within GC. Without specifying the scope using bind, the scope of this reverts to the event object.
 
